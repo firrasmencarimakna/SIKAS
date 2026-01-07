@@ -1,7 +1,7 @@
 import Image from "next/image"
-import { LoginForm } from "@/components/LoginForm"
+import { SignupForm } from "@/components/SignupForm"
 
-export default function LoginPage() {
+export default function SignupPage() {
   return (
     <div className="bg-muted flex min-h-screen flex-col items-center justify-center gap-6 p-6 md:p-10">
       {/* Container utama dengan lebar maksimal yang nyaman di desktop */}
@@ -19,7 +19,7 @@ export default function LoginPage() {
         </div>
 
         {/* Form signup */}
-        <LoginForm />
+        <SignupForm />
       </div>
     </div>
   )
